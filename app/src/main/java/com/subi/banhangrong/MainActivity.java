@@ -17,9 +17,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTitle("HÀNG RONG");
         navigation = (BottomNavigationView) findViewById(R.id.btMenu);
         navigation.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener);
-
+        if (savedInstanceState == null) {
+            navigation.setSelectedItemId(R.id.home);
+        }
     }
 
     //Menu bottom

@@ -1,4 +1,4 @@
-package com.subi.banhangrong;
+package com.subi.ailearn;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.subi.banhangrong;
+package com.subi.ailearn.view.ui;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.subi.ailearn.R;
 
 public class MainActivity extends AppCompatActivity {
     public static BottomNavigationView navigation;
